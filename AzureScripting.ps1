@@ -19,10 +19,12 @@ git clone - copia del repo remote al local
 git rm --cached <file> to unstage
 git log 
 git restore <file>
+git remote add origin https://github.com/Ferducar/PowerShellScripting - Para decirle donde guardaremos el codigo/proyecto
+
+
 
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
-
  
 GITHUB STATES
 Working directory > git add > staging area > git commit > repository
