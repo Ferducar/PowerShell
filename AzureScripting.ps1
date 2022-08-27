@@ -21,7 +21,8 @@ git log
 
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
-
+ git restore AzureScripting.ps1
+ 
 GITHUB STATES
 Working directory > git add > staging area > git commit > repository
 
