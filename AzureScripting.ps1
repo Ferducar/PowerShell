@@ -36,7 +36,7 @@ git remote show origin - to show my remote repo
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name
 
-MERGE TESTER    
+  
 GIT COMMENTS
 Git will ignore empty folders
 
@@ -49,4 +49,4 @@ Working directory > git add > staging area > git commit > repository
 
 
 
-
+#MASTER CHANGES
