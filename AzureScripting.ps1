@@ -16,12 +16,13 @@ git commit - para pasarlos del staging area al repository, ya sea local o remoto
 git push - para subirlo a un repositorio remoto como github
 git pull - para traer los cambios del proyecto remoto al local
 git clone - copia del repo remote al local
-use "git rm --cached <file>..." to unstage
+git rm --cached <file> to unstage
 git log 
+git restore <file>
 
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
- git restore AzureScripting.ps1
+
  
 GITHUB STATES
 Working directory > git add > staging area > git commit > repository
