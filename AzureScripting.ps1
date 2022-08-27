@@ -17,6 +17,7 @@ git push - para subirlo a un repositorio remoto como github
 git pull - para traer los cambios del proyecto remoto al local
 git clone - copia del repo remote al local
 use "git rm --cached <file>..." to unstage
+git log 
 
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
