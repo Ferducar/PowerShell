@@ -24,7 +24,8 @@ git branch - para crear nuevos caminos, nuevas versions
 git checkout <branch> - to change branches
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
-git remote add origin https://github.com/Ferducar/PowerShellScripting - Para decirle donde guardaremos el codigo/proyecto
+git remote add origin https://github.com/Ferducar/PowerShell - Para decirle donde guardaremos el codigo/proyecto
+git remote set-url origin https://github.com/Ferducar/PowerShell - to modify our origin
 
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
