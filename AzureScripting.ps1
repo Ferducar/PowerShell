@@ -27,7 +27,7 @@ git config --global user.name "Your Name"
 git remote add origin https://github.com/Ferducar/PowerShell - Para decirle donde guardaremos el codigo/proyecto
 git remote set-url origin https://github.com/Ferducar/PowerShell - to modify our origin
 git push -u origin master - maybe its only done once? not sure tho
-git push --set-upstream origin tester - to add your local branch to your remote repo
+git push --set-upstream origin tester - to add your local branch to your remote repo and his code/files
 git clone  <url> - this is to download our repo to local
 
 git config --global user.email "you@example.com"
