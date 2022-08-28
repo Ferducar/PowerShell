@@ -11,6 +11,7 @@ az login
 GIT BASIC COMMANDS
 git init - para inicializar el proyecto nuevo o alguno existente.
 git add <file> or <files> - para pasar los archivos del working directory al staging area / tambien se usa para actualizar tus archivos activos
+git add .       para agregar todo el folder
 git status - el estado de tus archivos/proyecto
 git commit - para pasarlos del staging area al repository, ya sea local o remoto
 git commit -m "add commit comment"
