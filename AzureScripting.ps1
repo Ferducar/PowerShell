@@ -3,7 +3,8 @@ az login
 
 
 
-#MASTER CONFLICTS
+
+#CLEAN CONFLICT
 
 
 <#
