@@ -26,6 +26,7 @@ git branch -a	                        list remote and local branches
 git branch -m <new-name>	            rename local head branch
 git branch -m <old-name> <new-name>		rename any local branch
 git checkout <branch>                   to change branches
+git checkout -b newlocalbranchname origin/branch-name
 git remote show origin                  to show my remote repo
 
 
