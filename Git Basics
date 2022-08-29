@@ -14,7 +14,7 @@ git push                                para subirlo a un repositorio remoto com
 git push origin --delete <branch>	    delete remote branch
 git push -u origin <name>	        	push local branch for the first time
 git push --set-upstream origin branch   to add your local branch to your remote repo and his code/files
-git push origin <branch>
+git push origin <branch>                does not link remote and local branches
 git push origin <branch> --set-upstream to link local and remote branch
 git pull                                para traer los cambios del proyecto remoto al local
 git pull                                origin my_remote_branch
