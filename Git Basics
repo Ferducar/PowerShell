@@ -1,30 +1,25 @@
-
-
-
-
-
 GIT BASIC COMMANDS
-git init                                para inicializar el proyecto nuevo o alguno existente.
-git add <file> or <files>               para pasar los archivos del working directory al staging area / tambien se usa para actualizar tus archivos activos
-git add .                               para agregar todo el folder all staging area
-git status                              el estado de tus archivos/proyecto
-git commit                              para pasarlos al local repo
+git init                                to initialize a project
+git add <file> or <files>               move files to staging area
+git add .                               move all to staging area
+git status                              status branch
+git commit                              local commit
 git commit -m "add commit comment"
-git push                                para subirlo a un repositorio remoto como github
 git push -u origin <name>	        	push local branch for the first time and link remote and local branch
 git push origin <branch>                does not link remote and local branches
+git push                                to upload commits (to linked branch)
 git push origin --delete <branch>	    delete remote branch
-git pull                                para traer los cambios del proyecto remoto al local
-git pull                                origin my_remote_branch
-git pull origin <branch> --set-upstream link local and remote branch
-git fetch                               para indicarte cuales cambias hay en el remote repo
-git clone                               descarga remote repo
+git pull                                to bring all changes
+git pull origin my_remote_branch        to bring changes of a specific branc (if they are not linked)
+git pull origin <branch> --set-upstream pull, link local and remote branch
+git fetch                               to bring status of changes
+git clone <url>                         download project
 git rm --cached <file>                  to unstage
-git log 
+git log                             
 git log --oneline --decorate --all --graph
 git restore <file>                      helps to unstage or even discard uncommitted local changes.
 git branch                              to create new branches
-git branch -u origin/branch            to link remote and local branch
+git branch -u origin/branch             to link remote and local branch
 git branch --set-upstream-to=origin/<branch> <local branch>	        link branches later...
 git branch -r	                        list remote branches
 git branch -a	                        list remote and local branches
@@ -33,10 +28,12 @@ git branch -m <old-name> <new-name>		rename any local branch
 git checkout <branch>                   to change branches
 git remote show origin                  to show my remote repo
 
+
 START GIT PROJECT
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name
 git remote set-url origin https://github.com/Ferducar/PowerShell        to modify our origin
+
 
 PROJECT SETUP
 Create a new repository on the command line
@@ -55,9 +52,9 @@ Join a team
 git clone  <url> <folder name>
 
 
-  
 GIT COMMENTS
 Git will ignore empty folders
+
 
 FEATURE BRANCH GIT AND GITHUB WORKFLOW
 Create  a feature branch
@@ -68,10 +65,6 @@ merge feature branch
 
 GITHUB STATES
 Working directory > git add > staging area > git commit > repository
-
-
-
-
 
 
 Refrences: 
