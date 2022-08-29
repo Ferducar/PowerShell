@@ -1,0 +1,80 @@
+
+
+
+
+
+GIT BASIC COMMANDS
+git init                                para inicializar el proyecto nuevo o alguno existente.
+git add <file> or <files>               para pasar los archivos del working directory al staging area / tambien se usa para actualizar tus archivos activos
+git add .                               para agregar todo el folder all staging area
+git status                              el estado de tus archivos/proyecto
+git commit                              para pasarlos al local repo
+git commit -m "add commit comment"
+git push                                para subirlo a un repositorio remoto como github
+git push origin --delete <branch>	    delete remote branch
+git push -u origin <name>	        	push local branch for the first time
+git push --set-upstream origin branch   to add your local branch to your remote repo and his code/files
+git push origin <branch>
+git push origin <branch> --set-upstream to link local and remote branch
+git pull                                para traer los cambios del proyecto remoto al local
+git pull                                origin my_remote_branch
+git pull origin <branch> --set-upstream link local and remote branch
+git fetch                               para indicarte cuales cambias hay en el remote repo
+git clone                               descarga remote repo
+git rm --cached <file>                  to unstage
+git log 
+git log --oneline --decorate --all --graph
+git restore <file>                      helps to unstage or even discard uncommitted local changes.
+git branch                              to create new branches
+git branch -u origin/branch            to link remote and local branch
+git branch -r	                        list remote branches
+git branch -a	                        list remote and local branches
+git branch -m <new-name>	            rename local head branch
+git branch -m <old-name> <new-name>		rename any local branch
+git checkout <branch>                   to change branches
+git remote show origin                  to show my remote repo
+
+START GIT PROJECT
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name
+git remote set-url origin https://github.com/Ferducar/PowerShell        to modify our origin
+
+PROJECT SETUP
+Create a new repository on the command line
+git init
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/Ferducar/GitTutorial.git
+git push -u origin master
+
+Push an existing repository from the command line
+git remote add origin https://github.com/Ferducar/GitTutorial.git
+git branch -M master
+git push -u origin master
+
+Join a team
+git clone  <url> <folder name>
+
+
+  
+GIT COMMENTS
+Git will ignore empty folders
+
+FEATURE BRANCH GIT AND GITHUB WORKFLOW
+Create  a feature branch
+upload to git
+create pull request
+merge feature branch
+
+
+GITHUB STATES
+Working directory > git add > staging area > git commit > repository
+
+
+
+
+
+
+Refrences: 
+https://www.youtube.com/watch?v=Q1kHG842HoI&ab_channel=SuperSimpleDev
+https://www.youtube.com/watch?v=HiXLkL42tMU&ab_channel=Fazt
