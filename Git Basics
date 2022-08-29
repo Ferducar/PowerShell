@@ -50,7 +50,8 @@ git push -u origin master
 
 Join a team
 git clone  <url> <folder name>
-
+git remote add origin <url>
+git push --set-upstream origin master
 
 GIT COMMENTS
 Git will ignore empty folders
