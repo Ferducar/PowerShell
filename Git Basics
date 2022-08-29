@@ -11,11 +11,8 @@ git status                              el estado de tus archivos/proyecto
 git commit                              para pasarlos al local repo
 git commit -m "add commit comment"
 git push                                para subirlo a un repositorio remoto como github
-git push origin --delete <branch>	    delete remote branch
-git push -u origin <name>	        	push local branch for the first time
-git push --set-upstream origin branch   to add your local branch to your remote repo and his code/files
+git push -u origin <name>	        	push local branch for the first time and link remote and local branch
 git push origin <branch>                does not link remote and local branches
-git push origin <branch> --set-upstream to link local and remote branch
 git pull                                para traer los cambios del proyecto remoto al local
 git pull                                origin my_remote_branch
 git pull origin <branch> --set-upstream link local and remote branch
@@ -27,6 +24,7 @@ git log --oneline --decorate --all --graph
 git restore <file>                      helps to unstage or even discard uncommitted local changes.
 git branch                              to create new branches
 git branch -u origin/branch            to link remote and local branch
+git branch --set-upstream-to=origin/<branch> <local branch>	        link branches later...
 git branch -r	                        list remote branches
 git branch -a	                        list remote and local branches
 git branch -m <new-name>	            rename local head branch
